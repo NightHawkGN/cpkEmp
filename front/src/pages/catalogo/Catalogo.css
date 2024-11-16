@@ -1,0 +1,54 @@
+.div-list {
+    margin: 30px;
+    padding: 2px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ede4f2;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+    border: 1px solid lightgray;
+}
+
+.h2-nome-produto {
+    text-align: center;
+    font-weight: 700;
+}
+
+.h3-dados {
+    text-align: left;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: row;
+}
+
+.div-img-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    overflow: hidden;
+}
+
+.img-produto {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.div-preco{
+    display: block;
+    text-align: left;
+    box-sizing: border-box;
+    unicode-bidi: isolate;
+    font-size: 14px;
+    line-height: 20px;
+}
