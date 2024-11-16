@@ -38,6 +38,7 @@ public class Produto implements Serializable {
         this.setDescricao(produtoToMerge.getDescricao());
         this.setPreco(produtoToMerge.getPreco());
         this.setDesconto(produtoToMerge.getDesconto());
+        this.setCaminhoimagem(produtoToMerge.getCaminhoimagem());
 
         return this;
     }
